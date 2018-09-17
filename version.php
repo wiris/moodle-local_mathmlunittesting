@@ -15,8 +15,8 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version details for MathML Unit Testing local plugin.
- * This plugin tests whether the MathML is valid.
+ * Version details for MathML unit testing local plugin.
+ * This plugin tests the Moodle HTML purifier in order to check whether it filters out MathML or not.
  *
  * @package    local
  * @subpackage mathmlunittesting

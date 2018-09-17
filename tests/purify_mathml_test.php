@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Unit tests for MathML Unit Testing.
+ * Unit tests for MathML unit testing.
  *
  * @package    local_mathmlunittesting
  * @group      local_mathmlunittesting

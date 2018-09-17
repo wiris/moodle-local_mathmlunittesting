@@ -1,4 +1,4 @@
-# MathML Unit Testing local plugin
+# MathML unit testing local plugin
 
 This plugin tests the Moodle HTML purifier in order to check whether it filters out MathML or not.
 
@@ -16,4 +16,4 @@ Alternatively, download the zip from <https://github.com/wiris/moodle-local_math
 ## License
 
 
-MathMl Unit Testing local plugin is Licensed under the [GNU General Public, License Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html).
+MathML unit testing local plugin is Licensed under the [GNU General Public, License Version 3](https://www.gnu.org/licenses/gpl-3.0.en.html).
