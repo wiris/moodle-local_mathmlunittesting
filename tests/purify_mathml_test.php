@@ -25,25 +25,21 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+global $CFG;
 require_once($CFG->dirroot . '/lib/moodlelib.php');
 
-global $CFG;
-
-class local_mathmlunittesting_example_testcase extends advanced_testcase
+class local_mathmlunittesting_purify_mathml_testcase extends advanced_testcase
 {
     protected $htmlpurifier;
     protected $mathml;
 
     protected function setUp() {
-        global $CFG;
         parent::setUp();
         $this->resetAfterTest(true);
         $this->mathml = '<math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>-</mo><mn>2</mn></math>';
-
     }
 
-    public function test_mathml() {
-        global $CFG;
+    public function test_purify_mathml() {
         $this->assertEquals(clean_param($this->mathml, PARAM_RAW), $this->mathml);
     }
 
