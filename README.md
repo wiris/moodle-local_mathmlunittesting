@@ -1,5 +1,9 @@
 # MathML unit testing local plugin
 
+### Master Build Status
+
+[![Build Status](https://travis-ci.org/wiris/moodle-local_mathmlunittesting.svg?branch=master)](https://travis-ci.org/wiris/moodle-local_mathmlunittesting)
+
 This plugin tests the Moodle HTML purifier in order to check whether it filters out MathML or not.
 
 ## Install instructions
